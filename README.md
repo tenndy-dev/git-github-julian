@@ -51,8 +51,9 @@ Las ramas son formas de hacer cambios sin afectar el estado de la rama principal
 - git branch <nombre>: crear rama
 - git checkout <rama>: cambiar de rama
 - git merge
-
-- git push
+- git remote add origin <link>: agregar repositorio remoto
+- git remote -v: informacion del repositorio remoto
+- git push origin main: enviar cambios
 - git fetch
 - git merge <rama>: unir ramas
 - git pull
