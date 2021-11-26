@@ -50,8 +50,8 @@ Las ramas son formas de hacer cambios sin afectar el estado de la rama principal
 - git checkout <master> <archivo>: actualizar a lo de master
 - git branch <nombre>: crear rama
 - git checkout <rama>: cambiar de rama
+- git merge
 
 - git push
 - git fetch
-- git merge
 - git pull
