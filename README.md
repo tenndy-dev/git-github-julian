@@ -11,6 +11,17 @@ El staging es un espacio en memoria ram, es donde se guardan los cambios
 luego de haber enviado los cambios a staging, cuando se le da commit se
 envia al repositorio
 
+### Entorno de desarrollo personal
+
+1. Driectorio de trabajo
+2. Preparacion o Staging
+3. Repositorio local
+4. Repositorio remoto
+
+### Ramas
+
+Las ramas son formas de hacer cambios sin afectar el estado de la rama principal
+
 ## Comandos y configuración
 
 ### Configuración de git
@@ -30,7 +41,14 @@ envia al repositorio
 - git rm --cached <file>: qitar de registro
 - git add commit -m "<Mensaje>": guardar cambios con mensaje
 - git log: registro de commits
+- git log --stat: ver cambios especificos a partir del commit
 - git show <archivo>: mostrar cambios
 - git diff <indicador> <indicador>: comparar versiones
 - git reset --soft: Se devuelven los cambios pero lo que esta en staged sigue
 - git reset --hard: se devuelven los cambios permanentemente
+- git checkout <indicador> <archivo>: ver un archivo en estado original en un commit
+- git checkout <master> <archivo>: actualizar a lo de master
+- git push
+- git fetch
+- git merge
+- git pull
