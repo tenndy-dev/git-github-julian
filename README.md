@@ -48,6 +48,9 @@ Las ramas son formas de hacer cambios sin afectar el estado de la rama principal
 - git reset --hard: se devuelven los cambios permanentemente
 - git checkout <indicador> <archivo>: ver un archivo en estado original en un commit
 - git checkout <master> <archivo>: actualizar a lo de master
+- git branch <nombre>: crear rama
+- git checkout <rama>: cambiar de rama
+
 - git push
 - git fetch
 - git merge
