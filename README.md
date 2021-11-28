@@ -33,6 +33,10 @@ En el entorno local se crea las dos llaves y se le envia la llave publica a GitH
 - carpeta home
 - ssh-keygen -t rsa -b 4096 -C correo
 
+## tags y versiones
+
+Un tag sirve para dar referencia a una parte del codigo dividiendolo por lo general en versiones para llevar un control de avances en cada etapa
+
 ## Comandos y configuración
 
 ### Configuración de git
@@ -53,6 +57,8 @@ En el entorno local se crea las dos llaves y se le envia la llave publica a GitH
 - git add commit -m Mensaje: guardar cambios con mensaje
 - git log: registro de commits
 - git log --stat: ver cambios especificos a partir del commit
+- git log --all: muestra todo el historial
+- git log --all --graph --decorate --oneline: muestra todo el historial comprimido graficamente
 - git show archivo: mostrar cambios
 - git diff indicador indicador: comparar versiones
 - git reset --soft: Se devuelven los cambios pero lo que esta en staged sigue
@@ -69,3 +75,9 @@ En el entorno local se crea las dos llaves y se le envia la llave publica a GitH
 - git pull origin main: traer los cambios del repositorio remoto
 - git remore set-url origin linkSSH
 - git fetch
+- git tag -a v0.1 -m "mensaje" indicador: crear un nuevo tag
+- git tag: ver los tags
+- git show-ref --tags: ver a que parte pertenece cada tag
+- git push origin --tags: enviar los tags creados
+- git tag -d tag: borrar un tag
+- git push origin : refs/tags/(tag): Borrar el tag en github antes borrado en local
