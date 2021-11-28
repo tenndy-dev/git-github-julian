@@ -81,3 +81,4 @@ Un tag sirve para dar referencia a una parte del codigo dividiendolo por lo gene
 - git push origin --tags: enviar los tags creados
 - git tag -d tag: borrar un tag
 - git push origin : refs/tags/(tag): Borrar el tag en github antes borrado en local
+- git clone (link): clonar repositorio
