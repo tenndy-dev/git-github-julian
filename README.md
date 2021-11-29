@@ -92,3 +92,22 @@ Sirve cuando se quiere hacer cambios de un committ anterior pero sin guardar los
 - git clone (link): clonar repositorio
 - git stash: guardar cambios en memoria
 - git stash list: lista de los cambios en memoria
+- git stash pop: Agregar los cambios que estan en memoria
+- git stash drop: Eliminar los cambios que estan en memoria
+- git clean --dry-run: simula lo que va a borrar
+- git clean -f: borra los datos clonados
+- git cherry-pick (indicador commit): traer commits viejos de una rama
+- git commit --amend: agregar cambios al ultimo commit
+- git reflog: se ve todo el registro
+- git reset --HARD indicador: resetear a un commit anterior, si se a dañado algo
+- git grep (palabra): buscar una plabra en los archivos
+- git grep -n (palabra): buscar una plabra en los archivos en que linea
+- git grep -c (palabra): buscar una plabra en los archivos cuantas veces
+- git log -S: buscar en los commits
+- git shortlog: muestra commits por persona
+- git shortlog -sn --all: cuantos commits a hecho cada persona
+- git shortlog -sn --all --no-merges: cuantos commits a hecho cada persona
+- git blame: quien hizo que
+- git comando --help: como funciona un comando
+- git branch -r: ramas remotas
+- git branch -a: todas las ramas
