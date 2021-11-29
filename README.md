@@ -37,6 +37,14 @@ En el entorno local se crea las dos llaves y se le envia la llave publica a GitH
 
 Un tag sirve para dar referencia a una parte del codigo dividiendolo por lo general en versiones para llevar un control de avances en cada etapa
 
+## Contribuyendo a un repositorio Fork
+
+Tomar una copia del estado actual del proyexto y hacerlo propio
+
+## Guardar cambios en memoria
+
+Sirve cuando se quiere hacer cambios de un committ anterior pero sin guardar los cambios actuales (RECOMENDADO)
+
 ## Comandos y configuración
 
 ### Configuración de git
@@ -82,3 +90,5 @@ Un tag sirve para dar referencia a una parte del codigo dividiendolo por lo gene
 - git tag -d tag: borrar un tag
 - git push origin : refs/tags/(tag): Borrar el tag en github antes borrado en local
 - git clone (link): clonar repositorio
+- git stash: guardar cambios en memoria
+- git stash list: lista de los cambios en memoria
